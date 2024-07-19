@@ -1,4 +1,8 @@
-<p>Please enter some values and press "Calculate".</p>
+
+@if (!results) {
+<p >Please enter some values and press "Calculate".</p>
+} @else{
+
 
 <table>
   <thead>
@@ -14,3 +18,4 @@
         
   </tbody>
 </table>
+}
